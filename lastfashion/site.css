@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: font;
+    src: url(./font/Fonts/static/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./font/Fonts/static/OpenSans_Condensed-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: para;
+    src: url(./font/Fonts/static/OpenSans_SemiCondensed-SemiBold.ttf);
+}
+
+body{
+    background-color: rgb(246, 236, 239);
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 100vw;
+    height: 14vh;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.left img{
+  width: 120px;
+  height: 100px;
+}
+
+.mid ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.mid a{
+    text-decoration: none;
+    color: black;
+    font-family:font;
+}
+
+.mid a:hover{
+    cursor: pointer;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.right span{
+    font-family: 90px;
+}
+
+.right span:hover{
+    transform: translate(1.9px);
+    cursor: pointer;
+}
+
+.picin{
+    display: flex;
+    width: 90vw;
+}
+
+.en img{
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.en h5{
+    text-align: center;
+    font-family: font;
+    color: gray;
+}
+
+.piciin{
+    display: flex;
+    width: 90vw;
+    margin-top: 60px;
+}
+
+.ene{
+    width: 290px;
+    height: 280px;
+}
+
+.ene p{
+    font-family: para;
+    color: rgb(79, 76, 76);
+}
+
